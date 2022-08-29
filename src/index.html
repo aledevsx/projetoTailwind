@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Webdesign, AleDevX, Tailwind 3">
+    <meta property="og:title" content="PROTOTYPE" />
+    <meta property="og:description" content="Projeto estudo Tailwind 3" />
+    <meta property="og:type" content="WEBSITES" />
+    <meta property="og:image" content="https://aledevsx.github.io/projectTailwind/img/template.jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:image:type" content="image/jpg" />
+    <title>Prototype</title>
+    <link rel="preload" href="../dist/fonts/JosefinSans-Medium.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="../dist/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="../dist/fonts/Roboto-Light.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="icon" href="../dist/img/favicon.ico">
+    <meta name="theme-color" content="#5CBFAD" />
+    <link rel="stylesheet" href="../dist/main.min.css">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="inner">
+            <div class="icon-load"></div>
+        </div>
+    </div>
+    <header class="banner" id="home">
+        
+        <nav class="mx-auto max-w-465">
+            <button aria-label="Toggle navigation" class="nav mx-auto flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    enable-background="new 0 0 32 32" height="32px" id="Слой_1" version="1.1" viewBox="0 0 32 32"
+                    width="32px" xml:space="preserve">
+                    <g id="Settings">
+                        <path
+                            d="M1,7h30c0.552,0,1-0.448,1-1c0-0.552-0.448-1-1-1H1C0.448,5,0,5.448,0,6C0,6.552,0.448,7,1,7z"
+                            fill="#ffffff" />
+                        <path
+                            d="M31,25H1c-0.552,0-1,0.448-1,1c0,0.552,0.448,1,1,1h30c0.552,0,1-0.448,1-1C32,25.448,31.552,25,31,25z"
+                            fill="#ffffff" />
+                        <path
+                            d="M28,12c-1.862,0-3.413,1.278-3.859,3H1c-0.552,0-1,0.448-1,1c0,0.552,0.448,1,1,1h23.141   c0.446,1.722,1.997,3,3.859,3c2.209,0,4-1.791,4-4C32,13.791,30.209,12,28,12z M28,18c-1.105,0-2-0.896-2-2c0-1.104,0.895-2,2-2   s2,0.895,2,2C30,17.104,29.105,18,28,18z"
+                            fill="#ffffff" />
+                    </g>
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                </svg></button>
+            <div class="container-nav">
+                <ul>
+                    <li><a class="text-white active" aria-current="page" href="#home">Home</a></li>
+                    <li><a class="text-white" href="#about">About</a></li>
+                    <li><a class="text-white" href="#projects">Projects</a></li>
+                    <li><a class="text-white" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>PROTOTYPE</h1>
+        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum</p>
+    </header>
+
+    <main>
+
+        <section class="section-1 max-w-1200 container">
+            <a href="https://github.com/aledevsx" aria-label="github" class="ale">
+                ALE DEVX
+                <svg class="pl-1.5" xmlns="http://www.w3.org/2000/svg"
+                    style="height: 1.25rem; vertical-align: text-bottom;" viewBox="0 0 496 512">
+                    <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                        fill="#fff" />
+                </svg>
+            </a>
+            <div class="pt-14 mb-14 md:pt-24 sm:px-24 md:px-0 grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-size mx-auto" viewBox="0 0 576 512">
+                        <path
+                            d="M352.4 243.8l-49.83 99.5c-6.009 12-23.41 11.62-28.92-.625L216.7 216.3l-30.05 71.75L88.55 288l176.4 182.2c12.66 13.07 33.36 13.07 46.03 0l176.4-182.2l-112.1 .0052L352.4 243.8zM495.2 62.86c-54.36-46.98-137.5-38.5-187.5 13.06L288 96.25L268.3 75.92C218.3 24.36 135.2 15.88 80.81 62.86C23.37 112.5 16.84 197.6 60.18 256h105l35.93-86.25c5.508-12.88 23.66-13.12 29.54-.375l58.21 129.4l49.07-98c5.884-11.75 22.78-11.75 28.67 0l27.67 55.25h121.5C559.2 197.6 552.6 112.5 495.2 62.86z"
+                            fill="rgba(92, 191, 173, 0.918)"></path>
+                    </svg>
+                    <h3>BEAUTIFUL DESIGN</h3>
+                    <p class="text-center text-1lg">Lorem iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in <a class="text-info" href="#!">Officiis</a>.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-size md:mt-10 mx-auto" viewBox="0 0 576 512">
+
+                        <path
+                            d="M528 0h-480C21.5 0 0 21.5 0 48v320C0 394.5 21.5 416 48 416h192L224 464H152C138.8 464 128 474.8 128 488S138.8 512 152 512h272c13.25 0 24-10.75 24-24s-10.75-24-24-24H352L336 416h192c26.5 0 48-21.5 48-48v-320C576 21.5 554.5 0 528 0zM512 288H64V64h448V288z"
+                            fill="rgba(92, 191, 173, 0.918)" />
+                    </svg>
+                    <h3>RESPONSIVE WEB
+                    </h3>
+                    <p class="text-center text-1lg">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus acuss odio in <a class="text-info" href="#!">Posuere</a>.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-size mx-auto" viewBox="0 0 640 512">
+                        <path
+                            d="M406.1 61.65C415.4 63.09 419.4 74.59 412.6 81.41L374.6 118.1L383.6 170.1C384.1 179.5 375.3 186.7 366.7 182.4L320.2 157.9L273.3 182.7C264.7 187 255 179.8 256.4 170.5L265.4 118.4L227.4 81.41C220.6 74.59 224.6 63.09 233.9 61.65L286.2 54.11L309.8 6.332C314.1-2.289 326.3-1.93 330.2 6.332L353.8 54.11L406.1 61.65zM384 256C401.7 256 416 270.3 416 288V480C416 497.7 401.7 512 384 512H256C238.3 512 224 497.7 224 480V288C224 270.3 238.3 256 256 256H384zM160 320C177.7 320 192 334.3 192 352V480C192 497.7 177.7 512 160 512H32C14.33 512 0 497.7 0 480V352C0 334.3 14.33 320 32 320H160zM448 416C448 398.3 462.3 384 480 384H608C625.7 384 640 398.3 640 416V480C640 497.7 625.7 512 608 512H480C462.3 512 448 497.7 448 480V416z"
+                            fill="rgba(92, 191, 173, 0.918)" />
+                    </svg>
+                    <h3>PAGERANK</h3>
+                    <p class="text-center text-1lg">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in <a class="text-info" href="#!">Suscipit</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2" id="about">
+            <div class="bg-tema bg-gradient">
+                <h2 class="text-white text-2l text-center pt-7">ABOUT US</h2>
+                <p class="text-white about pb-12 font-light text-3xl text-center">Lorem iaculis purus consequat sem cure
+                    dign
+                    issim.</p>
+            </div>
+            <div class="bg-gray">
+                <div
+                    class="max-w-1200 md:pt-7 pb-16 md:pb-20 gap-10 xl:gap-x-24 container grid grid-cols-1 lg:grid-cols-2">
+                    <div class="sm:px-24 md:px-20 lg:px-0">
+                        <h2 class="lg:mt-12 mb-2 mt-xl-0 text-3xl">WEB DESIGN SOLUTIONS</h2>
+                        <span class="block bg-tema mb-4" style="width:60px; height:3px"></span>
+                        <p class="mb-4 text-1lg">Lorem iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum eius voluptatem, <a class="text-tema" href="#!">doloremque culpa dicta hic</a>,
+                            similique ipsam minus
+                            laudantium molestiae unde! Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                            repellendus! A, quisquam aperiam aspernatur incidunt adipisci omnis. Ipsum provident, dolor
+                            rerum accusantium voluptas excepturi obcaecati tempora!</p>
+                        <p class="text-1lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam commodi
+                            impedit sint? <a class="text-tema" href="#!">Officiis</a>,
+                            repellendus! A, quisquam aperiam aspernatur incidunt adipisci omnis. Ipsum provident, dolor
+                            rerum accusantium voluptas excepturi obcaecati tempora!</p>
+                        <a href="#!" aria-label="read more" class="btn">
+                            READ MORE
+                        </a>
+                    </div>
+                    <div class="order-first lg:order-last sm:px-24 md:px-20 lg:px-0">
+                        <picture>
+                            <source type="image/webp" srcset="../dist/img/img-88.webp">
+                            <source type="image/jpeg" srcset=".../dist/img/img-88.jpg">
+                            <img class="mt-12 mx-auto shadow-ale" src="../dist/img/img-88.jpg" width="696" height="659"
+                                alt="">
+                        </picture>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3 pb-12 md:pb-20 sm:px-24 lg:px-4 pt-8 md:pt-6 container max-w-1200">
+            <h2 class="md:mt-12 text-center mb-3 mt-xl-0 text-2l">CREATION PROCESS</h2>
+            <span class="block mx-auto bg-tema mb-8" style="width:60px; height:3px"></span>
+            <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-1.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-1.jpg">
+                        <img src="../dist/img/img-1.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">IDEA</button>
+                </div>
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-2.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-2.jpg">
+                        <img src="../dist/img/img-2.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">PLANNING</button>
+                </div>
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-3.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-3.jpg">
+                        <img src="../dist/img/img-3.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">WIREFRAME</button>
+                </div>
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-4.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-4.jpg">
+                        <img src="../dist/img/img-4.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">CREATIVE</button>
+                </div>
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-5.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-5.jpg">
+                        <img src="../dist/img/img-5.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">COLORS</button>
+                </div>
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-6.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-6.jpg">
+                        <img src="../dist/img/img-6.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">DESIGN</button>
+                </div>
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-7.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-7.jpg">
+                        <img src="../dist/img/img-7.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">CODE</button>
+                </div>
+                <div class="max-w-508 mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-8.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-8.jpg">
+                        <img src="../dist/img/img-8.jpg" width="508" height="336" class="mx-auto shadow-ale" alt="" />
+                    </picture>
+                    <button type="button" class="btn-img">FINISHED</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4 bg-gray">
+            <div
+                class="max-w-1200 pt-12 md:pt-20 pb-16 md:pb-20 gap-12 lg:gap-x-20 container grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+                <div>
+                    <div
+                        class="sm:px-24 lg:px-0 md:pt-2 mb-2 mt-xl-0 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                        <div class="max-w-508 mx-auto">
+                            <picture>
+                                <source type="image/webp" srcset="../dist/img/mark-1.webp">
+                                <source type="image/jpeg" srcset="../dist/img/mark-1.jpg">
+                                <img src="../dist/img/mark-1.jpg" width="508" height="381" class="mx-auto shadow-ale"
+                                    alt="" />
+                            </picture>
+                            <button type="button" class="btn-img-mark">MARKETING</button>
+                        </div>
+                        <div class="max-w-508 mx-auto">
+                            <picture>
+                                <source type="image/webp" srcset="../dist/img/mark-2.webp">
+                                <source type="image/jpeg" srcset="../dist/img/mark-2.jpg">
+                                <img src="../dist/img/mark-2.jpg" width="508" height="381" class="mx-auto shadow-ale"
+                                    alt="" />
+                            </picture>
+                            <button type="button" class="btn-img-mark">ESTRATEGY</button>
+                        </div>
+                        <div class="max-w-508 mx-auto">
+                            <picture>
+                                <source type="image/webp" srcset="../dist/img/mark-3.webp">
+                                <source type="image/jpeg" srcset="../dist/img/mark-3.jpg">
+                                <img src="../dist/img/mark-3.jpg" width="508" height="381" class="mx-auto shadow-ale"
+                                    alt="" />
+                            </picture>
+                            <button type="button" class="btn-img-mark">CREATIVE</button>
+                        </div>
+                        <div class="max-w-508 mx-auto">
+                            <picture>
+                                <source type="image/webp" srcset="../dist/img/mark-4.webp">
+                                <source type="image/jpeg" srcset="../dist/img/mark-4.jpg">
+                                <img src="../dist/img/mark-4.jpg" width="508" height="381" class="mx-auto shadow-ale"
+                                    alt="" />
+                            </picture>
+                            <button type="button" class="btn-img-mark">RESULTS</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-first sm:px-24 lg:px-0 md:order-last">
+                    <h2 class="mb-2 mt-xl-0 text-3xl">DEVELOPING STRATEGY</h2>
+                    <span class="block bg-tema mb-4" style="width:60px; height:3px"></span>
+                    <p class="mb-4 text-1lg">Lorem iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Illum eius voluptatem, <a class="text-tema" href="#!">doloremque culpa dicta hic</a>,
+                        similique ipsam minus
+                        laudantium molestiae unde! Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                        repellendus! A, quisquam aperiam aspernatur incidunt adipisci omnis. Ipsum provident, dolor
+                        rerum accusantium voluptas excepturi obcaecati tempora!</p>
+                    <p class="text-1lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam commodi
+                        impedit sint? <a class="text-tema" href="#!">Officiis</a>,
+                        repellendus! A, quisquam aperiam aspernatur incidunt adipisci omnis. Ipsum provident, dolor
+                        rerum accusantium voluptas excepturi obcaecati tempora!</p>
+                    <a href="#!" aria-label="read more" class="btn">
+                        READ MORE
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-5 pb-6 md:pb-7 pt-12 md:pt-7" id="projects">
+            <div class="container max-w-1200">
+
+                <h2 class="md:mt-12 text-center mb-3 mt-xl-0 text-2l">LATEST PROJECTS</h2>
+                <span class="mx-auto block bg-tema mb-8 md:mb-6 mt-5" style="width:64px; height:3px"></span>
+                <div
+                    class="sm:px-24 lg:px-0 md:pt-12 lg:gap-x-6 pb-16 md:pb-20 mt-xl-0 grid grid-cols-1 lg:grid-cols-2">
+
+                    <div class="max-w-694 mx-auto">
+                        <h3 class="left pt-6 md:pt-8">TREEHOUSE PROJECT</h3>
+                        <span class="block bg-tema mt-3 mb-4" style="width:60px; height:3px"></span>
+                        <p class="lg:max-w-465">Lorem iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum eius voluptatem, doloremque culpa dicta hic, similique ipsam minus
+                            laudantium molestiae unde!</p>
+                        <a target="_blank" rel="noopener noreferrer" class="btn"
+                            href="https://aledevsx.github.io/treehouseTemplate/">VIEW
+                            LIVE</a>
+                    </div>
+                    <div class="max-w-694 mx-auto order-first lg:order-last">
+                        <figure class="figure">
+                            <picture>
+                                <source type="image/webp" srcset="../dist/img/treehouse.webp">
+                                <source type="image/jpeg" srcset="../dist/img/treehouse.jpg">
+                                <img src="../dist/img/treehouse.jpg" width="696" height="431"
+                                    class="mx-auto shadow-ale mb-0" alt="">
+                            </picture>
+                            <figcaption class="figure-caption">
+                                <a target="_blank" rel="noopener noreferrer" class="btn-img"
+                                    href="https://github.com/aledevsx/treehouseTemplate">TREEHOUSE
+                                    TEMPLATE PSD</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-gray">
+                <div class="container max-w-1200">
+                    <div
+                        class="sm:px-24 lg:px-0 pt-14 md:pt-20 pb-16 md:pb-20 lg:gap-x-6 mb-2 mt-xl-0 grid grid-cols-1 lg:grid-cols-2">
+                        <div class="max-w-694 mx-auto">
+                            <figure class="figure">
+                                <picture>
+                                    <source type="image/webp" srcset="../dist/img/axit.webp">
+                                    <source type="image/jpeg" srcset="../dist/img/axit.jpg">
+                                    <img src="../dist/img/axit.jpg" width="696" height="431"
+                                        class="mx-auto shadow-ale mb-0" alt="">
+                                </picture>
+                                <figcaption class="figure-caption">
+                                    <a target="_blank" rel="noopener noreferrer" class="btn-img-gray"
+                                        href="https://github.com/aledevsx/axitTemplate">AXIT
+                                        TEMPLATE PSD</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="lg:pl-20 mx-auto max-w-694">
+                            <h3 class="left pt-6 md:pt-8">AXIT PROJECT</h3>
+                            <span class="block bg-tema mt-3 mb-4" style="width:60px; height:3px"></span>
+                            <p class="">Lorem iaculis purus consequat sem cure
+                                digni ssim. Donec porttitora entum suscipit
+                                aenean rhoncus posuere odio in tincidunt. Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Illum eius voluptatem, doloremque culpa dicta hic, similique ipsam minus
+                                laudantium molestiae unde!</p>
+                            <a target="_blank" rel="noopener noreferrer" class="btn mt-5"
+                                href="https://aledevsx.github.io/axitTemplate/">VIEW
+                                LIVE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-6 container max-w-1200 pb-12 md:pb-20">
+            <h2 class="mt-6 md:mt-10 text-center mb-1 mt-xl-0 text-2l">TYPES OF RESOURCES</h2>
+            <span class="mx-auto block bg-tema mb-4 md:mb-4 mt-3" style="width:64px; height:3px"></span>
+            <p class="text-center pb-12 text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div
+                class="sm:px-24 lg:px-0 max-w-1200 md:pt-7 pb-4 md:pb-6 gap-6 xl:gap-x-20 grid grid-cols-1 lg:grid-cols-2">
+                <div class="mx-auto">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/img-10.webp">
+                        <source type="image/jpeg" srcset="../dist/img/img-10.jpg">
+                        <img src="../dist/img/img-10.jpg" width="696" height="464" class="shadow-ale mb-0" alt="">
+                    </picture>
+                </div>
+                <div class="mx-auto lg:mx-0">
+                    <h3 class="left md:pt-8">UTILIZED RESOURCES</h3>
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 pr-3" style="height:1.125rem;"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <p class="mb-2 xl:mb-4">Aorema ipsum dolor sit amet, consectdolor.</p>
+                    </div>
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 pr-3" style="height:1.125rem;"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <p class="mb-2 xl:mb-4">Lorielem enipsum dolor sit amet, conse dolor </p>
+                    </div>
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 pr-3" style="height:1.125rem;"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <p class="mb-2 xl:mb-4">Broqrem ipsum dolor dolor sit amet sit.</p>
+                    </div>
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 pr-3" style="height:1.125rem;"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <p class="mb-2 xl:mb-4">Voiremup ipsum dolor amet, adipiscing elit.</p>
+                    </div>
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 pr-3" style="height:1.125rem;"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <p class="mb-2 xl:mb-4">Voiremup ipsum dolor amet, adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#!" aria-label="resources" class="btn shadow-ale">RESOURCES</a>
+            </div>
+        </section>
+
+        <section class="section-7 pt-10 md:pt-7 bg-gray">
+            <h2 class="md:mt-10 text-center mb-1 mt-xl-0 text-2l">TEAM MEMBERS</h2>
+            <span class="mx-auto block bg-tema mb-4 md:mb-4 mt-3" style="width:64px; height:3px"></span>
+            <p class="text-center pb-12 text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div
+                class="sm:px-24 md:px-2 lg:px-4 container max-w-1200 md:pt-7 pb-10 md:pb-14 gap-8 grid grid-cols-1 md:grid-cols-3">
+                <div class="flex">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/aledevx.webp">
+                        <source type="image/jpeg" srcset="../dist/img/aledevx.jpg">
+                        <img src="../dist/img/aledevx.jpg" class="max-w-full img rounded-full mr-5 mb-3" width="79"
+                            height="79" alt="">
+                    </picture>
+                    <div class="flex flex-col">
+                        <h3 class="fs-3 mt-1 mb-0"> ALE DEVX</h3>
+                        <p class="font-light text-neutral-500 mb-4 text-xs">DEVELOPER</p>
+                        <p>Roin bolen aircraft dolor sit amet lacus accumsan et viverra justo lacus
+                            accumsan.
+                        </p>
+                        <div class="flex mt-5 mb-6 md:mt-8">
+                            <a href="#!" class="d-inline-block px-3" style="padding:3px 5px;" aria-label="twitter">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.25rem;"
+                                    viewBox="0 0 512 512">
+
+                                    <path
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="d-inline-block" style="padding:3px 7px;" aria-label="github">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.25rem;"
+                                    viewBox="0 0 496 512">
+
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="d-inline-block" style="padding:3px 9px;" aria-label="facebook">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.15rem;"
+                                    viewBox="0 0 320 512">
+
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/alicia.webp">
+                        <source type="image/jpeg" srcset="../dist/img/alicia.jpg">
+                        <img src="../dist/img/alicia.jpg" class="max-w-full img rounded-full mr-5 mb-3" width="79"
+                            height="79" alt="">
+                    </picture>
+                    <div class="flex flex-col">
+                        <h3 class="fs-3 mt-1 mb-0">ALICIA UX</h3>
+                        <p class="font-light text-neutral-500 mb-4 text-xs">UX DESIGNER</p>
+                        <p>Roin gravida dolor sit amet lacus accumsan et viverra justo lacus
+                            accumsan.
+                        </p>
+                        <div class="flex mt-5 mb-6 md:mt-8">
+                            <a href="#!" class="d-inline-block px-3" style="padding:3px 5px;" aria-label="twitter">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.25rem;"
+                                    viewBox="0 0 512 512">
+
+                                    <path
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="d-inline-block" style="padding:3px 7px;" aria-label="github">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.25rem;"
+                                    viewBox="0 0 496 512">
+
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="d-inline-block" style="padding:3px 9px;" aria-label="facebook">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.15rem;"
+                                    viewBox="0 0 320 512">
+
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <picture>
+                        <source type="image/webp" srcset="../dist/img/susam.webp">
+                        <source type="image/jpeg" srcset="../dist/img/susam.jpg">
+                        <img src="../dist/img/susam.jpg" class="max-w-full img rounded-full mr-5 mb-3" width="79"
+                            height="79" alt="">
+                    </picture>
+                    <div class="flex flex-col">
+                        <h3 class="fs-3 mt-1 mb-0">SUSAM M.</h3>
+                        <p class="font-light text-neutral-500 mb-4 text-xs">MANAGER</p>
+                        <p>Roin gravida dolor sit amet lacus accumsan et viverra justo lacus
+                            accumsan.
+                        </p>
+                        <div class="flex mt-5 mb-6 md:mt-8">
+                            <a href="#!" class="d-inline-block px-3" style="padding:3px 5px;" aria-label="twitter">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.25rem;"
+                                    viewBox="0 0 512 512">
+
+                                    <path
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="d-inline-block" style="padding:3px 7px;" aria-label="github">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.25rem;"
+                                    viewBox="0 0 496 512">
+
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="d-inline-block" style="padding:3px 9px;" aria-label="facebook">
+                                <svg class="ico" xmlns="http://www.w3.org/2000/svg" style="height: 1.15rem;"
+                                    viewBox="0 0 320 512">
+
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-8 bg-tema" id="contact">
+            <div
+                class="container sm:px-24 lg:px-4 max-w-1200 md:pt-1 pb-12 md:pb-6 gap-8 grid grid-cols-1 md:grid-cols-2">
+
+                <div class="">
+                    <h2 class="text-white pt-6 text-2l">NEWSLETTER</h2>
+                    <p class="text-white text-xl md:pb-5 font-light">Lorem iaculis purus et viverra accumsan</p>
+                </div>
+                <div class="flex mt-4 md:mt-6 items-center">
+                    <input type="text" class="rounded w-full py-1 pl-3" style="height:50px;" placeholder="Email"><a
+                        href="#!" aria-label="enviar" class="fw-lighter">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="pl-3" style="height: 1.75rem;"
+                            viewBox="0 0 512 512">
+
+                            <path
+                                d="M503.7 226.2l-176 151.1c-15.38 13.3-39.69 2.545-39.69-18.16V272.1C132.9 274.3 66.06 312.8 111.4 457.8c5.031 16.09-14.41 28.56-28.06 18.62C39.59 444.6 0 383.8 0 322.3c0-152.2 127.4-184.4 288-186.3V56.02c0-20.67 24.28-31.46 39.69-18.16l176 151.1C514.8 199.4 514.8 216.6 503.7 226.2z"
+                                fill="rgb(255, 255, 255)" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-9 pt-10 md:pt-16 pb-14 md:pb-24">
+
+            <h2 class="text-center text-2l">CONTACT US</h2>
+            <span class="mx-auto block bg-tema mb-4 mt-2" style="width:64px; height:3px"></span>
+            <p class="text-center text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div
+                class="container sm:px-24 lg:px-4 max-w-1200 pt-16 md:pt-20 pb-8 md:pb-6 gap-x-8 grid grid-cols-1 md:grid-cols-2">
+                <div>
+                    <div class="mb-8">
+                        <label class="form-label"></label>
+                        <input type="text"
+                            class="py-1 ps-3 rounded-sm border-0 border-b placeholder:text-neutral-500 border-neutral-300 focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-tema"
+                            style="width:100%;" placeholder="Name">
+                    </div>
+                    <div class="mb-8">
+                        <label class="form-label"></label>
+                        <input type="text"
+                            class="py-1 ps-3 rounded-sm border-0 border-b placeholder:text-neutral-500 border-neutral-300 focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-tema"
+                            style="width:100%;" placeholder="Email">
+                    </div>
+                    <div class="mb-8">
+                        <label class="form-label"></label>
+                        <input type="text"
+                            class="py-1 ps-3 rounded-sm border-0 border-b placeholder:text-neutral-500 border-neutral-300 focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-tema"
+                            style="width:100%;" placeholder="Subject">
+                    </div>
+                </div>
+                <div>
+                    <div class="mb-3 mb-area">
+                        <label for="Textarea" class="form-label"></label>
+                        <textarea
+                            class="py-1 ps-3 rounded-sm border-0 border-b placeholder:text-neutral-500 border-neutral-300 focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-tema"
+                            style="width:100%; height:163px;" id="Textarea" placeholder="Message" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="btn" href="#!" role="button">Send
+                    Message</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray">
+        <section
+            class="container sm:px-24 lg:px-4 max-w-1200 md:pt-10 border-b border-tema pt-8 pb-8 md:pb-8 grid grid-cols-1 md:grid-cols-2">
+            <div class="me-5 hidden md:block">
+                <h6 class="text-s9 flex items-center font-medium text-neutral-500"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="pr-2" style="height:.938rem;" viewBox="0 0 512 512">
+                        <path
+                            d="M380.6 365.6C401.1 379.9 416 404.3 416 432C416 476.2 380.2 512 336 512C291.8 512 256 476.2 256 432C256 423.6 257.3 415.4 259.7 407.8L114.1 280.4C103.8 285.3 92.21 288 80 288C35.82 288 0 252.2 0 208C0 163.8 35.82 128 80 128C101.9 128 121.7 136.8 136.2 151.1L320 77.52C321.3 34.48 356.6 0 400 0C444.2 0 480 35.82 480 80C480 117.9 453.7 149.6 418.4 157.9L380.6 365.6zM156.3 232.2L301.9 359.6C306.9 357.3 312.1 355.4 317.6 354.1L355.4 146.4C351.2 143.6 347.4 140.4 343.8 136.9L159.1 210.5C159.7 218 158.5 225.3 156.3 232.2V232.2z"
+                            fill="rgba(92, 191, 173, 0.918)" />
+                    </svg>Connect with us on social
+                    networks</h6>
+            </div>
+            <div class="flex justify-center lg:justify-end">
+                <div class="social flex justify-evenly" style="width:200px;">
+                    <div class="icon hover:shadow-md rounded flex items-center justify-center relative"
+                        style="background-color: #3f8cf4; width:25px; height:25px;">
+                        <a href="#!" aria-label="facebook" class="stretched-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height: 1.15rem;" viewBox="0 0 320 512">
+
+                                <path
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                                    fill="rgb(255, 255, 255)" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="icon hover:shadow-md rounded flex items-center justify-center relative"
+                        style="background-color: #25a5da; width:25px; height:25px;">
+                        <a href="#!" aria-label="twitter" class="stretched-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height: 1.10rem;vertical-align:-0.17rem;"
+                                viewBox="0 0 512 512">
+
+                                <path
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                                    fill="rgb(255, 255, 255)" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="icon hover:shadow-md rounded flex items-center justify-center relative"
+                        style="background-color: #d54b3f; width:25px; height:25px;">
+                        <a href="#!" aria-label="google" class="stretched-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height: 1.05rem;vertical-align:-0.13rem;"
+                                viewBox="0 0 488 512">
+
+                                <path
+                                    d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+                                    fill="rgb(255, 255, 255)" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="icon hover:shadow-md rounded flex items-center justify-center relative"
+                        style="background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);width:25px; height:25px;">
+                        <a href="#!" aria-label="instagram" class="stretched-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height: 1.25rem;vertical-align:-0.25rem;"
+                                viewBox="0 0 448 512">
+
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                                    fill="rgb(255, 255, 255)" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="icon hover:shadow-md rounded flex items-center justify-center relative"
+                        style="background-color: #0174b0; width:25px; height:25px;">
+                        <a href="#!" aria-label="linkedin" class="stretched-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height: 1.05rem;vertical-align:-0.12rem;"
+                                viewBox="0 0 448 512">
+
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                    fill="rgb(255, 255, 255)" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="icon hover:shadow-md rounded bg-black flex items-center justify-center relative"
+                        style="width:25px; height:25px;">
+                        <a href="#!" aria-label="github" class="stretched-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height: 1.15rem;vertical-align:-0.17rem;"
+                                viewBox="0 0 496 512">
+
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                                    fill="rgb(255, 255, 255)" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div
+                class="container text-md-start pt-10 sm:px-24 lg:px-4 max-w-1200 pb-8 md:pb-8 gap-x-8 grid grid-cols-2 md:grid-cols-4">
+
+                <div class="col-span-2 md:col-auto">
+                    <h3 class="text-1lg flex text-start mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="pr-2 mt-0.5" style="height:1.125rem;"
+                            viewBox="0 0 576 512">
+
+                            <path
+                                d="M550.5 241l-50.089-86.786c1.071-2.142 1.875-4.553 1.875-7.232 0-8.036-6.696-14.733-14.732-15.001l-55.447-95.893c.536-1.607 1.071-3.214 1.071-4.821 0-8.571-6.964-15.268-15.268-15.268-4.821 0-8.839 2.143-11.786 5.625H299.518C296.839 18.143 292.821 16 288 16s-8.839 2.143-11.518 5.625H170.411C167.464 18.143 163.447 16 158.625 16c-8.303 0-15.268 6.696-15.268 15.268 0 1.607.536 3.482 1.072 4.821l-55.983 97.233c-5.356 2.41-9.107 7.5-9.107 13.661 0 .535.268 1.071.268 1.607l-53.304 92.143c-7.232 1.339-12.59 7.5-12.59 15 0 7.232 5.089 13.393 12.054 15l55.179 95.358c-.536 1.607-.804 2.946-.804 4.821 0 7.232 5.089 13.393 12.054 14.732l51.697 89.732c-.536 1.607-1.071 3.482-1.071 5.357 0 8.571 6.964 15.268 15.268 15.268 4.821 0 8.839-2.143 11.518-5.357h106.875C279.161 493.857 283.447 496 288 496s8.839-2.143 11.518-5.357h107.143c2.678 2.946 6.696 4.821 10.982 4.821 8.571 0 15.268-6.964 15.268-15.268 0-1.607-.267-2.946-.803-4.285l51.697-90.268c6.964-1.339 12.054-7.5 12.054-14.732 0-1.607-.268-3.214-.804-4.821l54.911-95.358c6.964-1.339 12.322-7.5 12.322-15-.002-7.232-5.092-13.393-11.788-14.732zM153.535 450.732l-43.66-75.803h43.66v75.803zm0-83.839h-43.66c-.268-1.071-.804-2.142-1.339-3.214l44.999-47.41v50.624zm0-62.411l-50.357 53.304c-1.339-.536-2.679-1.34-4.018-1.607L43.447 259.75c.535-1.339.535-2.679.535-4.018s0-2.41-.268-3.482l51.965-90c2.679-.268 5.357-1.072 7.768-2.679l50.089 51.965v92.946zm0-102.322l-45.803-47.41c1.339-2.143 2.143-4.821 2.143-7.767 0-.268-.268-.804-.268-1.072l43.928-15.804v72.053zm0-80.625l-43.66 15.804 43.66-75.536v59.732zm326.519 39.108l.804 1.339L445.5 329.125l-63.75-67.232 98.036-101.518.268.268zM291.75 355.107l11.518 11.786H280.5l11.25-11.786zm-.268-11.25l-83.303-85.446 79.553-84.375 83.036 87.589-79.286 82.232zm5.357 5.893l79.286-82.232 67.5 71.25-5.892 28.125H313.714l-16.875-17.143zM410.411 44.393c1.071.536 2.142 1.072 3.482 1.34l57.857 100.714v.536c0 2.946.803 5.624 2.143 7.767L376.393 256l-83.035-87.589L410.411 44.393zm-9.107-2.143L287.732 162.518l-57.054-60.268 166.339-60h4.287zm-123.483 0c2.678 2.678 6.16 4.285 10.179 4.285s7.5-1.607 10.179-4.285h75L224.786 95.821 173.893 42.25h103.928zm-116.249 5.625l1.071-2.142a33.834 33.834 0 0 0 2.679-.804l51.161 53.84-54.911 19.821V47.875zm0 79.286l60.803-21.964 59.732 63.214-79.553 84.107-40.982-42.053v-83.304zm0 92.678L198 257.607l-36.428 38.304v-76.072zm0 87.858l42.053-44.464 82.768 85.982-17.143 17.678H161.572v-59.196zm6.964 162.053c-1.607-1.607-3.482-2.678-5.893-3.482l-1.071-1.607v-89.732h99.91l-91.607 94.821h-1.339zm129.911 0c-2.679-2.41-6.428-4.285-10.447-4.285s-7.767 1.875-10.447 4.285h-96.429l91.607-94.821h38.304l91.607 94.821H298.447zm120-11.786l-4.286 7.5c-1.339.268-2.41.803-3.482 1.339l-89.196-91.875h114.376l-17.412 83.036zm12.856-22.232l12.858-60.803h21.964l-34.822 60.803zm34.822-68.839h-20.357l4.553-21.16 17.143 18.214c-.535.803-1.071 1.874-1.339 2.946zm66.161-107.411l-55.447 96.697c-1.339.535-2.679 1.071-4.018 1.874l-20.625-21.964 34.554-163.928 45.803 79.286c-.267 1.339-.803 2.678-.803 4.285 0 1.339.268 2.411.536 3.75z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>PROTOTYPE
+                    </h3>
+                    <p>Roin gravida dolor sit amet lacus accumsan et viverra justo lacus accumsan. Dolor
+                        sit
+                        amet,cons adipisic elit.</p>
+                </div>
+                <div class="lg:mx-auto">
+                    <h3 class="text-1lg text-start mb-4">PRODUCTS</h3>
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem;" viewBox="0 0 448 512">
+
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Webdesign</a>
+                    </p>
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem;" viewBox="0 0 448 512">
+
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Landingpage</a>
+                    </p>
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem;" viewBox="0 0 448 512">
+
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Websites</a>
+                    </p>
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem;" viewBox="0 0 448 512">
+
+                            <path
+                                d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Frameworks</a>
+                    </p>
+                </div>
+                <div class="lg:mx-auto">
+                    <h3 class="text-1lg text-start mb-4">ABOUT US</h3>
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem; vertical-align: baseline;" viewBox="0 0 384 512">
+
+                            <path
+                                d="M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Company</a>
+                    </p>
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" style="height:.813rem;"
+                            viewBox="0 0 512 512">
+
+                            <path
+                                d="M320 336c0 8.844-7.156 16-16 16h-96C199.2 352 192 344.8 192 336V288H0v144C0 457.6 22.41 480 48 480h416c25.59 0 48-22.41 48-48V288h-192V336zM464 96H384V48C384 22.41 361.6 0 336 0h-160C150.4 0 128 22.41 128 48V96H48C22.41 96 0 118.4 0 144V256h512V144C512 118.4 489.6 96 464 96zM336 96h-160V48h160V96z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Office</a>
+                    </p>
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" style="height:.813rem;"
+                            viewBox="0 0 512 512">
+
+                            <path
+                                d="M280 145.3V112h16C309.3 112 320 101.3 320 88S309.3 64 296 64H215.1C202.7 64 192 74.75 192 87.1S202.7 112 215.1 112H232v33.32C119.6 157.3 32 252.4 32 368h448C480 252.4 392.4 157.3 280 145.3zM488 400h-464C10.75 400 0 410.7 0 423.1C0 437.3 10.75 448 23.1 448h464c13.25 0 24-10.75 24-23.1C512 410.7 501.3 400 488 400z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Services</a>
+                    </p>
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" style="height:.813rem;"
+                            viewBox="0 0 512 512">
+
+                            <path
+                                d="M320 96H192L144.6 24.88C137.5 14.24 145.1 0 157.9 0H354.1C366.9 0 374.5 14.24 367.4 24.88L320 96zM192 128H320C323.8 130.5 328.1 133.3 332.1 136.4C389.7 172.7 512 250.9 512 416C512 469 469 512 416 512H96C42.98 512 0 469 0 416C0 250.9 122.3 172.7 179 136.4C183.9 133.3 188.2 130.5 192 128V128zM276.1 224C276.1 212.9 267.1 203.9 255.1 203.9C244.9 203.9 235.9 212.9 235.9 224V230C230.3 231.2 224.1 232.9 220 235.1C205.1 241.9 192.1 254.5 188.9 272.8C187.1 283 188.1 292.9 192.3 301.8C196.5 310.6 203 316.8 209.6 321.3C221.2 329.2 236.5 333.8 248.2 337.3L250.4 337.9C264.4 342.2 273.8 345.3 279.7 349.6C282.2 351.4 283.1 352.8 283.4 353.7C283.8 354.5 284.4 356.3 283.7 360.3C283.1 363.8 281.2 366.8 275.7 369.1C269.6 371.7 259.7 373 246.9 371C240.9 370 230.2 366.4 220.7 363.2C218.5 362.4 216.3 361.7 214.3 361C203.8 357.5 192.5 363.2 189 373.7C185.5 384.2 191.2 395.5 201.7 398.1C202.9 399.4 204.4 399.9 206.1 400.5C213.1 403.2 226.4 407.4 235.9 409.6V416C235.9 427.1 244.9 436.1 255.1 436.1C267.1 436.1 276.1 427.1 276.1 416V410.5C281.4 409.5 286.6 407.1 291.4 405.9C307.2 399.2 319.8 386.2 323.1 367.2C324.9 356.8 324.1 346.8 320.1 337.7C316.2 328.7 309.9 322.1 303.2 317.3C291.1 308.4 274.9 303.6 262.8 299.9L261.1 299.7C247.8 295.4 238.2 292.4 232.1 288.2C229.5 286.4 228.7 285.2 228.5 284.7C228.3 284.3 227.7 283.1 228.3 279.7C228.7 277.7 230.2 274.4 236.5 271.6C242.1 268.7 252.9 267.1 265.1 268.1C269.5 269.7 283 272.3 286.9 273.3C297.5 276.2 308.5 269.8 311.3 259.1C314.2 248.5 307.8 237.5 297.1 234.7C292.7 233.5 282.7 231.5 276.1 230.3L276.1 224z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        <a href="#!">Investment</a>
+                    </p>
+                </div>
+                <div class="lg:mx-auto col-span-2 md:col-auto">
+                    <h3 class="text-1lg text-start mb-4">CONTACT</h3>
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem;" viewBox="0 0 576 512">
+
+                            <path
+                                d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        São Paulo - SP</p>
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem;" viewBox="0 0 512 512">
+
+                            <path
+                                d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        contact@prototype.com</p>
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="pr-2"
+                            style="height:.813rem;" viewBox="0 0 512 512">
+
+                            <path
+                                d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+                                fill="rgba(92, 191, 173, 0.918)" />
+                        </svg>
+                        +5511989898989</p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="justify-center flex pt-8 bg-neutral-900 pb-8 relative">
+            <p class="text-center text-s9 mb-0 text-white">
+                <a target="_blank" href="https://github.com/aledevsx" class="text-white flex">AleDev<span
+                        class="text-tema">X</span> <svg xmlns="http://www.w3.org/2000/svg" class="px-1"
+                        style="height: 1.125rem; vertical-align: baseline;" viewBox="0 0 496 512">
+
+                        <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                            fill="rgb(255, 255, 255)" />
+                    </svg> 2022</a>
+                <a href="#" aria-label="top" class="absolute" style="top:30px;right:30px;width:30px;height:30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fa-arrow-up" viewBox="0 0 384 512">
+
+                        <path
+                            d="M374.6 246.6C368.4 252.9 360.2 256 352 256s-16.38-3.125-22.62-9.375L224 141.3V448c0 17.69-14.33 31.1-31.1 31.1S160 465.7 160 448V141.3L54.63 246.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160C387.1 213.9 387.1 234.1 374.6 246.6z"
+                            fill="rgba(92, 191, 173, 0.918)" />
+                    </svg>
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../dist/js/modernizr-custom.js"></script>
+    <script src="../dist/js/script.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "projetotailwind",
+  "version": "1.0.0",
+  "description": "estudo tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aledevsx/projetoTailwind.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Ale Devx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aledevsx/projetoTailwind/issues"
+  },
+  "homepage": "https://github.com/aledevsx/projetoTailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
